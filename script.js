@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (weatherImageFromData === 'Sunny') {
             weatherImage.src = "sunny.webp";
         } else if  (weatherImageFromData === 'Clouds') {
-            weatherImage.src = "cloudy.png";
+            weatherImage.src = "night.png";
         } else {
             weatherImage.src = 'night.png';
         }
