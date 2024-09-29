@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="weather.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="mainContainer">
+        <div class="container">
+            <div class="input-button-class">
+                <input type="text" placeholder="Enter city name " id="city-name">
+                <img src="search.png" alt="search-button" id="search-button">
+            </div>
+
+            <div class="output-container-javascript">
+                <div class="image-container">
+                    <img src="" alt="" id='weather-current-image'>
+                </div>
+                <div class="temperature-container">
+                    <p id="para-text"></p>
+                </div>
+                <div class="city-container">
+                    <p id="city-text"></p>
+                </div>
+                
+            </div>
+            <div class="another-container">
+                <div class="humidity-container">
+                    <div class="first-image-container">
+                        <img src="humidity.png" alt="" id="humidity-image-id">
+                        
+                    </div>
+                    <div class="first-text-container">
+                        <p id="humidity-text"></p>
+                    </div>
+                </div>
+                <div class="wind-speed-container">
+                    <div class="second-image-container">
+                        <img src="windy.png" alt="">
+                    </div>
+                    <div class="second-text-container">
+                        <p id="wind-speed-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
